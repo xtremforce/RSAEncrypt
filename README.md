@@ -1,2 +1,1 @@
-# rsaencrypt
--------------- ↓ 原内容 ↓ --------------ﾠ...
+Encrypt and decrypt long strings with RSA between PHP and Python.
