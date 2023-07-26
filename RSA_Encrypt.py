@@ -2,7 +2,12 @@ from Crypto.PublicKey import RSA
 from Crypto.Cipher import PKCS1_v1_5
 import base64
 
+
 class RSA_Encrypt:
+    """
+    RSA encrypt and decrypt long string
+    https://github.com/xtremforce/RSAEncrypt
+    """
     def __init__(self, publicKey=None, privateKey=None):
         if(publicKey is not None):
             self.publicKey = RSA.import_key(publicKey)
