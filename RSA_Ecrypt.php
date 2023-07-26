@@ -1,6 +1,6 @@
 /** 
  * RSA encrypt and decrypt long string
- * /
+ */
 class RSA_Encrypt
 {
     private $publicKey;
