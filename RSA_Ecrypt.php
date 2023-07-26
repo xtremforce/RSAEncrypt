@@ -2,6 +2,7 @@
 
 /** 
  * RSA encrypt and decrypt long string
+ * https://github.com/xtremforce/RSAEncrypt
  */
 class RSA_Encrypt
 {
