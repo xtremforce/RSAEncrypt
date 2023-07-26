@@ -9,9 +9,9 @@ class RSA_Encrypt:
     https://github.com/xtremforce/RSAEncrypt
     """
     def __init__(self, publicKey=None, privateKey=None):
-        if(publicKey is not None):
+        if(publicKey is not None and publicKey != ""):
             self.publicKey = RSA.import_key(publicKey)
-        if(privateKey is not None):
+        if(privateKey is not None and privateKey != ""):
             self.privateKey = RSA.import_key(privateKey)
           
     @staticmethod
