@@ -1,3 +1,5 @@
+<?php
+
 /** 
  * RSA encrypt and decrypt long string
  */
