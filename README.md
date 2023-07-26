@@ -5,7 +5,7 @@ Encrypt and decrypt long strings using RSA (Asymmetric encryption), and work bet
 可以加密和解密 “长字符串” 的 RSA 类，并且能在 PHP 和 Python 之间使用。
 
 
-# PHP Example:
+## PHP Example:
 
 ```
 // Generate keys 生成公钥私钥 
@@ -24,7 +24,7 @@ $rsa = new RSA_Encrypt('', $privateKey);
 echo $rsa->decrypt($encryptString);
 ```
 
-# Python Example:
+## Python Example:
 
 ```
 # Generate keys 生成公钥私钥
