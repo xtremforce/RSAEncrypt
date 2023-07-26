@@ -1,1 +1,1 @@
-Encrypt and decrypt long strings with RSA between PHP and Python.
+Encrypt and decrypt long strings using RSA (Asymmetric encryption), and work between PHP and Python.
